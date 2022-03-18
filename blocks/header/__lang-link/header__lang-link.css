@@ -1,0 +1,7 @@
+@import url(./_text/header__lang-link_text_en.css);
+@import url(./_text/header__lang-link_text_ru.css);
+
+.header__lang-link {   
+    color: white;
+     
+}
