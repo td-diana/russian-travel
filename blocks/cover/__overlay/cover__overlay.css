@@ -1,3 +1,15 @@
-.cover__overlay {
-    
+.cover__overlay::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #2a2c2f;
+  opacity: 0.3;
+  transition: opacity 0.4s;
+}
+
+.cover__overlay:hover::before {
+  opacity: 0.8;
 }

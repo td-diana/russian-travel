@@ -4,6 +4,7 @@
 @import url(./__paragraph/place__paragraph.css);
 @import url(./__link/place__link.css);
 @import url(./__url-heading/place__url-heading.css);
+@import url(./_cursor/place_cursor_included.css);
 
 
 .place {

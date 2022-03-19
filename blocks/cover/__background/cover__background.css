@@ -1,3 +1,26 @@
-.cover__background {
-    
+.cover__background {           
+    background-image: url(../../../images/cover-trains.jpg);   
+    background-repeat: no-repeat;   
+    background-size: 100% 100%;
+    position: relative;
+    padding: 245px 312px 343px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
 }
+
+/* 
+.cover__background::before {
+    content:  "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #2a2c2f;
+    opacity: 0.3;
+}
+*/
