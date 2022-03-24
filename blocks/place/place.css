@@ -6,15 +6,35 @@
 @import url(./__url-heading/place__url-heading.css);
 @import url(./_cursor/place_cursor_included.css);
 
-
 .place {
-    display: grid;
-    grid-template-columns: 460px 1fr;    
-    column-gap: 40px;
-    row-gap: 48px;
-    margin-bottom: 80px;
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  column-gap: 40px;
+  row-gap: 48px;
+  margin-bottom: 80px;
 }
 
 .place:last-of-type {
-    margin: 0;    
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    grid-template-columns: 440px 1fr;
+    column-gap: 32px;
   }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: 340px 1fr;
+    column-gap: 28px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .place {
+    grid-template-columns: 100%;
+    column-gap: 0px;
+  }
+}
