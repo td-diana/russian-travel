@@ -1,6 +1,9 @@
-@import url(./_text/header__lang-link_text_en.css);
-@import url(./_text/header__lang-link_text_ru.css);
+@import url(./_position/header__lang-link_position_select.css);
 
 .header__lang-link {   
-    color: white;         
+    color: white;                 
+}
+
+.header__lang-link:hover {
+    opacity: 0.8;
 }
