@@ -11,3 +11,12 @@
 @import url(../blocks/place/place.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/footer/footer.css);
+
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__copyright/footer__copyright.css);
+@import url(./__logo/header__logo.css);
+@import url(./__text/intro__text.css);
+@import url(./__capiton/lead_capiton.css);
+@import url(./__item/photo-grid__item.css);
+@import url(./__text/place__text.css);
+

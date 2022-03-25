@@ -5,7 +5,6 @@
 @import url(./__link/place__link.css);
 @import url(./__url-heading/place__url-heading.css);
 @import url(./_cursor/place_cursor_included.css);
-@import url(./__text/place__text.css);
 
 .place {
   display: grid;
