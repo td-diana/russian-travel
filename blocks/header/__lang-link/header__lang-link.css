@@ -1,9 +1,9 @@
 @import url(./_position/header__lang-link_position_select.css);
 
-.header__lang-link {   
-    color: white;                 
+.header__lang-link {
+  color: white;
 }
 
 .header__lang-link:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
