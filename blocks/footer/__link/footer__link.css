@@ -3,6 +3,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.12;
+  list-style-type: none;
   text-decoration: none;
   color: #ffffff;
 }
@@ -10,3 +11,21 @@
 .footer__link:hover {
   opacity: 0.8;
 }
+
+@media screen and (max-width: 720px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 1;
+    padding-bottom: 32px;
+    margin: 0;
+  }
+}
+
+.footer__link:last-child {
+  padding-bottom: 0;  
+}
+
+.footer__link:last-child {
+  margin: 0;
+}
+

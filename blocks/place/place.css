@@ -5,13 +5,14 @@
 @import url(./__link/place__link.css);
 @import url(./__url-heading/place__url-heading.css);
 @import url(./_cursor/place_cursor_included.css);
+@import url(./__text/place__text.css);
 
 .place {
   display: grid;
   grid-template-columns: 460px 1fr;
   column-gap: 40px;
   row-gap: 48px;
-  margin-bottom: 80px;
+  margin-bottom: 80px;  
 }
 
 .place:last-of-type {
@@ -29,12 +30,14 @@
   .place {
     grid-template-columns: 340px 1fr;
     column-gap: 28px;
+    margin-bottom: 73px;   
   }
 }
 
 @media screen and (max-width: 470px) {
   .place {
     grid-template-columns: 100%;
-    column-gap: 0px;
+    row-gap: 38px;
+    margin-bottom: 50px;
   }
 }
